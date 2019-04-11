@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="1235" height="650">
+<defs>
+  <polygon id="pt"
+    points="-0.1624598481164531,0 0,0.5 0.1624598481164531,0"
+    transform="scale(0.0616)" fill="white"/>
+    <!-- "0.162..." = (tan. of 18 deg.) / 2 -->
+  <g id="st">
+    <use xlink:href="#pt" transform="rotate(-108)"/>
+    <use xlink:href="#pt" transform="rotate(-36)"/>
+    <use xlink:href="#pt" transform="rotate(36)"/>
+    <use xlink:href="#pt" transform="rotate(108)"/>
+    <use xlink:href="#pt" transform="rotate(180)"/>
+  </g>
+  <g id="r5">
+    <use xlink:href="#st" x="-0.252"/>
+    <use xlink:href="#st" x="-0.126"/>
+    <use xlink:href="#st"/>
+    <use xlink:href="#st" x="0.126"/>
+    <use xlink:href="#st" x="0.252"/>
+  </g>
+  <g id="r6">
+    <use xlink:href="#r5" x="-0.063"/>
+    <use xlink:href="#st" x="0.315"/>
+  </g>
+  <g id="r4">
+    <use xlink:href="#r6"/>
+    <use xlink:href="#r5" y="0.054"/>
+    <use xlink:href="#r6" y="0.108"/>
+    <use xlink:href="#r5" y="0.162"/>
+  </g>
+  <g id="un">
+    <use xlink:href="#r4" y="-0.216"/>
+    <use xlink:href="#r4"/>
+    <use xlink:href="#r6" y="0.216"/>
+  </g>
+  <rect id="str" width="1235" height="50" fill="#bf0a30"/>
+</defs>
+<rect width="1235" height="650" fill="white"/>
+<use xlink:href="#str"/>
+<use xlink:href="#str" y="100"/>
+<use xlink:href="#str" y="200"/>
+<use xlink:href="#str" y="300"/>
+<use xlink:href="#str" y="400"/>
+<use xlink:href="#str" y="500"/>
+<use xlink:href="#str" y="600"/>
+<rect width="494" height="350" fill="#002868"/>
+<use xlink:href="#un" transform="translate(247,175) scale(650)"/>
+</svg>
