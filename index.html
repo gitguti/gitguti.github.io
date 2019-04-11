@@ -490,6 +490,7 @@
       </table>
 
 <h4> Cursos y Seminarios </h4>
+    
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -603,6 +604,19 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('body').scrollspy({target: ".navbar", offset: 50});
 });
+    
+    $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+
 </script>
 
     </body>
