@@ -39,7 +39,11 @@ border-bottom: #C4E17F 2px solid;
   text-align:justify;
   color:white;
   background-color: #343a40;
-
+}
+img {
+  widht;100%;
+  height:500px;
+  display: block;
 }
 
 #xp, #skills, #studies{
