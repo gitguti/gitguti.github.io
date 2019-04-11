@@ -44,13 +44,10 @@ border-bottom: #C4E17F 2.5px solid;
   color:#343a40;
 }
 
-#contact
-{
+#contact {
   padding-top: 20px;
   padding-bottom: 10px;
- 
 }
-
 
 .card-header{
   font-weight: bold;
@@ -63,13 +60,13 @@ img {
 }
 
 .boton_pdf {
-	display:inline-block;
-	width:30px;
-	height:30px;
-	cursor:pointer;
-	background-image: url(images/pdfa.png);
-	background-repeat:no-repeat;
-  background-size:30px 30px;
+display:inline-block;
+width:30px;
+height:30px;
+cursor:pointer;
+background-image: url(images/pdfa.png);
+background-repeat:no-repeat;
+background-size:30px 30px;
 }
 
 .center {
@@ -83,7 +80,6 @@ img {
   display:block;
   margin: auto;
   background-color: white;
-
 }
 
 .circle-bg {
@@ -108,7 +104,6 @@ display:block;
   }
 }
 
-
 #wtfSNAP {
 cursor: help;
 background-image: none;
@@ -120,12 +115,6 @@ li {
 
 p, a{
   text-align: justify;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .contacto {
