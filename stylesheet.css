@@ -7,6 +7,10 @@ font-family: Helvetica;
 border-bottom: #C4E17F 2.5px solid;
   }
 
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: white !important;
+    background-color: #C4E17F !important;
+  }
   .top-image {
   padding-top: 140px;
   background: url("images/perfil.JPG") no-repeat center;
