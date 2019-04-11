@@ -4,8 +4,11 @@ font-family: Helvetica;
 }
 
 .navbar-nav a:hover {
-border-bottom: #C4E17F 2.5px solid;
+border-bottom: #C4E17F 2px solid;
   }
+.navbar-right{
+  margin-left: 100px;
+}
 
   .top-image {
   padding-top: 140px;
