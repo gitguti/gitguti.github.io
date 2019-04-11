@@ -47,6 +47,8 @@ border-bottom: #C4E17F 2.5px solid;
 #contact {
   padding-top: 20px;
   padding-bottom: 10px;
+  color:grey;	
+  background-color: #C4E17F;
 }
 
 .card-header{
