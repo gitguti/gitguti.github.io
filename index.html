@@ -18,7 +18,20 @@
         <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
         <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
     </head>
+<style>
+@media screen and (min-width: 400px) {
+  #xp {
+    background-color: lightgreen;
+     flex-direction: column;
+  }
+}
 
+@media screen and (min-width: 800px) {
+  body, #xp {
+    background-color: lavender;
+  }
+}
+</style>
     <body>
         <!-- Navegation Bar-->
         <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
@@ -34,11 +47,11 @@
               <li class="nav-item"> <a class="nav-link" href="#skills"> Habilidades </a> </li>
               <li class="nav-item"> <a class="nav-link" href="#studies"> Estudios </a> </li>
               <li class="nav-item"> <a class="nav-link" href="#contact"> Contacto </a> </li>
-            </ul>    
-             
+            </ul>
+
             <ul class="nav navbar-nav navbar-right">
-              <li class="nav-item"> <a class="nav-link" href="en.html"><object data="images/usa3.svg" type="image/svg+xml" height="30px" width="30px"> </object> </a> </li>
-              <li class="nav-item"> <a class="nav-link" href="index.html"> <object data="images/venezuela.svg" type="image/svg+xml" height="30px" width="30px"> </object>  </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="en.html"><object data="images/usa3.svg" type="image/svg+xml" height="25px" width="30px"> </object> </a> </li>
+              <li class="nav-item"> <a class="nav-link" href="index.html"> <object data="images/venezuela.svg" type="image/svg+xml" height="25px" width="30px"> </object>  </a> </li>
             </ul>
           </div>
         </nav>
@@ -216,7 +229,7 @@
                     <!-- Modal body -->
                     <div class="modal-body">
                       <embed src="pdf/TEG.pdf" frameborder="0" width="100%" height="500px">
-        
+
 
                         <!-- Modal footer -->
                         <div class="modal-footer">
@@ -256,7 +269,7 @@
                   <!-- Modal body -->
                   <div class="modal-body">
                     <embed src="pdf/mat2.pdf" frameborder="0" width="100%" height="500px">
-                    
+
 
                       <!-- Modal footer -->
                       <div class="modal-footer">
@@ -474,16 +487,21 @@
 <h2> Estudios </h2>
 <div class="container">
 <h4> Títulos </h4>
-       <table class="table">
+       <div class="row">
+        <div class="col-md-2"> <h6> <b> Ingeniero Electrónico  </b> </h6></div>
+        <div class="col-md-5"> <p> U.E. San José Obrero </p> </div>
+        <div class="col-md-2"> <p> Puerto Cabello-Carabobo.</p> </div>
+        <div class="col-md-2"> <p>2006-2011 </p> </div>
+        <div class="col-md-1"> <a class="boton_pdf" href="https://drive.google.com/open?id=1CIJrNddaYkoZcbQ1m7eIjRVUmu1WvAg3"></a>  </div>
+      </div>
 
-         <tbody>
-          <tr>
-          <td> <h6> Ingeniero Electrónico </h6></td>
-          <td> Universidad Nacional Experimental de la Fuerza Armada Nacional. </td>
-          <td> Chuao-Caracas.</td>
-          <td> 2012-2018</td>
-          <td> <a class="boton_pdf" href="https://drive.google.com/open?id=1CIJrNddaYkoZcbQ1m7eIjRVUmu1WvAg3"></a>  </td>
-         </tr>
+      <div class="row">
+       <div class="col-md-2"> <h6> <b> Bachiller en Ciencias   </b> </h6></div>
+       <div class="col-md-5"> <p> Universidad Nacional Experimental de la Fuerza Armada Nacional </p> </div>
+       <div class="col-md-2"> <p> Chuao-Caracas.</p> </div>
+       <div class="col-md-2"> <p> 2012-2018 </p> </div>
+       <div class="col-md-1"> <a class="boton_pdf" href="https://drive.google.com/open?id=1Bi9ZhQETG0RnV2O1UH7hlglscuCAH2xG"></a>  </div>
+     </div>
 
           <tr>
           <td><h6> Bachiller en Ciencias </h6></td>
@@ -495,8 +513,18 @@
         </tbody>
       </table>
 
+<div class="row">
+
+
+  <div class="col-md-5">
+<h3> Holanda yolanda </h3>
+  </div>
+  <div class="col-md-2">
+<h3> Holanda yolanda da da da da da da  </h3>
+  </div>
+</div>
 <h4> Cursos y Seminarios </h4>
-    
+
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -610,7 +638,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('body').scrollspy({target: ".navbar", offset: 50});
 });
-    
+
     $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
